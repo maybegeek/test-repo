@@ -8,13 +8,17 @@ jobs:
   do-something:
     runs-on: ubuntu-latest
     container:
-      image: docker://pandoc/core:2-ubuntu
+      image: pandoc/core:latest-ubuntu
       options: --entrypoint=sh
-    steps: 
+    steps:
+      - name: STEP-01 ... Installiere make
+        run: |
+          apt-get update
+          apt-get install make -y
+          make --version
+          pandoc --version
       - uses: actions/checkout@v2
         with:
           ref: ${{ github.head_ref }}
       - name: Blablubbb
         run: ls -la
-      - name: sdfsdf
-        run: apt-get install make -y
