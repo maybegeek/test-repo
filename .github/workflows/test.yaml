@@ -8,7 +8,7 @@ jobs:
   do-something:
     runs-on: ubuntu-latest
     container:
-      image: docker://pandoc/latex:2.9
+      image: docker://pandoc/core:2-ubuntu
       options: --entrypoint=sh
     steps: 
       - uses: actions/checkout@v2
@@ -17,4 +17,4 @@ jobs:
       - name: Blablubbb
         run: ls -la
       - name: sdfsdf
-        run: apt-get install make -y          
+        run: apt-get install make -y
