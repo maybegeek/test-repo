@@ -11,29 +11,25 @@ jobs:
       image: pandoc/core:latest-ubuntu
       options: --entrypoint=sh
     steps:
-      - name: STEP-01 ... Installiere make
+      - name: NAME-01 ... Installiere make
         run: |
           apt update
           apt install make -y
-      - uses: actions/checkout@v2
+      - name: NAME-02 ...
+        uses: actions/checkout@v2
         with:
           ref: ${{ github.head_ref }}
-      - name: Blablubbb
+      - name: NAME-03 ...
         run: |
           ls -la
           mkdir Ablage
-      - name: Sachen machen
+      - name: NAME-04 ...
         run: |
           pandoc test.md -s --to html5 -o Ablage/test.html
           pandoc test.md -o Ablage/test.odt
           pandoc test.md -o Ablage/test.docx
-      - uses: actions/upload-artifact@v2
-        with:
-          name: output
-          path: output
-          
-      - name: Datei zum internen Download bereitstellen ...
+      - name: NAME-05 ... Datei zum internen Download bereitstellen ...
         uses: actions/upload-artifact@v2
         with:
           name: Blablubber
-          path: Ablage
+          path: Ablage/
