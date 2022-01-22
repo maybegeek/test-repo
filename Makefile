@@ -14,7 +14,7 @@ PANDOC_HTML = \
 	--shift-heading-level-by=1 \
 	--metadata date="`date +'%e. %B %Y'`" \
 	--metadata date-meta="`date +'%Y-%m-%d'`" \
-	$< -o $(ABLAGE)$@
+	$< -o $@
 
 PANDOC_YAML = \
 	pandoc --standalone \
