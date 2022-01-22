@@ -1,0 +1,16 @@
+name: test
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  do-something:
+    runs-on: ubuntu-latest
+    steps: 
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
+      - name: Blablubbb
+        run: ls -la
+          
