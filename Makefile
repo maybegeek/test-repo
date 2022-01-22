@@ -35,7 +35,7 @@ ZIEL_YAMLS = $(BIB_DATEIEN:%.bib=%.yaml)
 all : bib-2-yaml md-2-html
 
 
-md-2-html : $(ABLAGE)$(ZIEL_HTMLS)
+md-2-html : $(ZIEL_HTMLS)
 bib-2-yaml : $(ZIEL_YAMLS)
 
 clean-html :
