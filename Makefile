@@ -1,7 +1,8 @@
 .PHONY : all md-to-html bib-to-yaml clean-yaml clean-html clean-all
 
 ABLAGE = ./
-if WITH_ATS
+
+ifdef WITH_ATS
 ABLAGE = ./Ablage/
 endif
 
