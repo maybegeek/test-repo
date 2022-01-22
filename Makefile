@@ -17,7 +17,7 @@ PANDOC_YAML = \
 	$< -o $@
 
 MARKDOWN_DATEIEN  = $(wildcard *.md)
-MD_AUSLASSEN = README.md
+MD_AUSLASSEN = README.md test.md
 MARKDOWN_DATEIEN := $(filter-out $(MD_AUSLASSEN), $(MARKDOWN_DATEIEN))
 ZIEL_HTMLS = $(MARKDOWN_DATEIEN:%.md=%.html)
 CSL_DATEI = Mitteilungen-RVW.csl
