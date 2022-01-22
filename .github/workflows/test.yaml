@@ -12,18 +12,19 @@ jobs:
       options: --entrypoint=sh
     steps:
       - name: STEP-01 ... Installiere make
-        run: |
-          apt-get update
-          apt-get install make -y
-          make --version
-          pandoc --version
+        run: apt-get install make -y
       - uses: actions/checkout@v2
         with:
           ref: ${{ github.head_ref }}
       - name: Blablubbb
-        run: ls -la
+        run: |
+          ls -la
+          mkdir Ablage
       - name: Sachen machen
-        run: pandoc test.md --to html5 -o test.html
+        run: |
+          pandoc test.md -s --to html5 -o Ablage/test.html
+          pandoc test.md -o Ablage/test.odt
+          pandoc test.md -o Ablage/test.docx
       - uses: actions/upload-artifact@v2
         with:
           name: output
@@ -33,4 +34,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: Blablubber
-          path: test.html
+          path: Ablage
