@@ -12,7 +12,9 @@ jobs:
       options: --entrypoint=sh
     steps:
       - name: STEP-01 ... Installiere make
-        run: apt-get install make -y
+        run: |
+          apt update
+          apt install make -y
       - uses: actions/checkout@v2
         with:
           ref: ${{ github.head_ref }}
