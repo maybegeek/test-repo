@@ -3,7 +3,7 @@
 ABLAGE = ./
 
 ifdef WITH_ATS
-ABLAGE = ./Ablage/
+ABLAGE = ./docs/
 endif
 
 PANDOC_HTML = \
