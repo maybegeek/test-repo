@@ -34,4 +34,6 @@ jobs:
           name: Blablubber
           path: Ablage/
       - name: TEST
-        run: make
+        run: ls -la
+      - name: TEST2
+        run: make WITH_ATS=1

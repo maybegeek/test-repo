@@ -1,5 +1,10 @@
 .PHONY : all md-to-html bib-to-yaml clean-yaml clean-html clean-all
 
+ABLAGE = ./
+if WITH_ATS
+ABLAGE = ./Ablage/
+endif
+
 PANDOC_HTML = \
 	pandoc --standalone \
 	--wrap=none --citeproc \
@@ -8,7 +13,7 @@ PANDOC_HTML = \
 	--shift-heading-level-by=1 \
 	--metadata date="`date +'%e. %B %Y'`" \
 	--metadata date-meta="`date +'%Y-%m-%d'`" \
-	$< -o $@
+	$< -o $(ABLAGE)$@
 
 PANDOC_YAML = \
 	pandoc --standalone \
@@ -40,7 +45,7 @@ clean-yaml :
 
 clean-all : clean-yaml clean-html
 
-%.html : %.md $(CSL_DATEI) $(TMPL_DATEI) $(ZIEL_YAMLS)
+$(ABLAGE)%.html : %.md $(CSL_DATEI) $(TMPL_DATEI) $(ZIEL_YAMLS)
 	@echo "* HTML-Datei erstellen: $@"
 	$(PANDOC_HTML)
 
