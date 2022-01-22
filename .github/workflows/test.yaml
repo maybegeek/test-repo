@@ -22,3 +22,9 @@ jobs:
           ref: ${{ github.head_ref }}
       - name: Blablubbb
         run: ls -la
+      - name: Sachen machen
+        run: pandoc test.md --to html5 -o test.html
+      - uses: actions/upload-artifact@v2
+        with:
+          name: output
+          path: output
