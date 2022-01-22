@@ -7,16 +7,14 @@ on:
 jobs:
   do-something:
     runs-on: ubuntu-latest
+    container:
+      image: docker://pandoc/latex:2.9
+      options: --entrypoint=sh
     steps: 
       - uses: actions/checkout@v2
         with:
           ref: ${{ github.head_ref }}
       - name: Blablubbb
         run: ls -la
-      - name: zeug
-        uses: docker://pandoc/core:2-ubuntu
-        with:
-          entrypoint: /bin/sh
-          args: -c "apt-get install make -y"
-
-          
+      - name: sdfsdf
+        run: apt-get install make -y          
