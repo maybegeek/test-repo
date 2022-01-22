@@ -17,6 +17,6 @@ jobs:
         uses: docker://pandoc/core:2-ubuntu
         with:
           entrypoint: /bin/sh
-          args: -c "sudo apt-get install make -y"
+          args: -c "apt-get install make -y"
 
           
