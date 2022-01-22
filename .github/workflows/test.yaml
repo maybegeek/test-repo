@@ -28,3 +28,9 @@ jobs:
         with:
           name: output
           path: output
+          
+      - name: Datei zum internen Download bereitstellen ...
+        uses: actions/upload-artifact@v2
+        with:
+          name: Blablubber
+          path: test.html
