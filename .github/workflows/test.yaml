@@ -14,7 +14,7 @@ jobs:
       - name: NAME-01 ... Installiere make
         run: |
           apt update
-          apt install make -y
+          apt install make git -y
       - name: NAME-02 ...
         uses: actions/checkout@v2
         with:
