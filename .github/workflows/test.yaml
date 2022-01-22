@@ -17,6 +17,10 @@ jobs:
         uses: docker://pandoc/core:2-ubuntu
       - name: install make
         run: sudo apt-get install make -y
-      - name:
+      - name: Dateien anzeigen
         run: ls -la
+      - name: make version
+        run: make --version
+      - name: pandoc version
+        run: pandoc --version
           
