@@ -33,3 +33,5 @@ jobs:
         with:
           name: Blablubber
           path: Ablage/
+      - name: TEST
+        run: make
