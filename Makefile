@@ -25,7 +25,7 @@ PANDOC_YAML = \
 MARKDOWN_DATEIEN  = $(wildcard *.md)
 MD_AUSLASSEN = README.md test.md
 MARKDOWN_DATEIEN := $(filter-out $(MD_AUSLASSEN), $(MARKDOWN_DATEIEN))
-ZIEL_HTMLS = $(MARKDOWN_DATEIEN:%.md=%.html)
+ZIEL_HTMLS = $(MARKDOWN_DATEIEN:%.md=$(ABLAGE)%.html)
 CSL_DATEI = Mitteilungen-RVW.csl
 TMPL_DATEI = layout/rvw-website.tmpl
 BIB_DATEIEN = $(wildcard *.bib)
