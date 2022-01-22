@@ -13,4 +13,6 @@ jobs:
           ref: ${{ github.head_ref }}
       - name: Blablubbb
         run: ls -la
+      - name: zeug
+        uses: docker://pandoc/core:2-ubuntu
           
