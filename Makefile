@@ -1,55 +1,47 @@
-.PHONY : all md-to-html bib-to-yaml clean-yaml clean-html clean-all
+.PHONY : DO_SYNC DO_BIBLIO DO_CSL DO_WEBSITE
 
-ABLAGE = ./
+DIR_OUTPUT     = rvw-www-staging
 
-ifdef WITH_ATS
-ABLAGE = ./docs/
+ifdef GITACT
+DIR_OUTPUT     = docs
 endif
 
-PANDOC_HTML = \
-	pandoc --standalone \
-	--wrap=none --citeproc \
-	--from markdown --to html5 \
-	--template=layout/rvw-website.tmpl \
-	--shift-heading-level-by=1 \
-	--metadata date="`date +'%e. %B %Y'`" \
-	--metadata date-meta="`date +'%Y-%m-%d'`" \
-	$< -o $@
+DIR_RVWBIBLIO  = rvw-biblio
+DIR_RVWCONTENT = rvw-content
+DIR_RVWCSL     = rvw-csl
+DIR_RVWLAYOUT  = rvw-layout
 
-PANDOC_YAML = \
-	pandoc --standalone \
-	--from biblatex \
-	--to markdown-smart \
-	$< -o $@
+QUELL_MDS     := $(wildcard $(DIR_RVWCONTENT)/*.md)
+ZIEL_WEB      := $(QUELL_MDS:$(DIR_RVWCONTENT)/%.md=$(DIR_OUTPUT)/%.html)
 
-MARKDOWN_DATEIEN  = $(wildcard *.md)
-MD_AUSLASSEN = README.md test.md
-MARKDOWN_DATEIEN := $(filter-out $(MD_AUSLASSEN), $(MARKDOWN_DATEIEN))
-ZIEL_HTMLS = $(MARKDOWN_DATEIEN:%.md=$(ABLAGE)%.html)
-CSL_DATEI = Mitteilungen-RVW.csl
-TMPL_DATEI = layout/rvw-website.tmpl
-BIB_DATEIEN = $(wildcard *.bib)
-ZIEL_YAMLS = $(BIB_DATEIEN:%.bib=%.yaml)
+QUELL_BIBLIO  := $(wildcard $(DIR_RVWBIBLIO)/*.bib)
+ZIEL_BIBLIO   := $(QUELL_BIBLIO:$(DIR_RVWBIBLIO)/%.bib=$(DIR_RVWBIBLIO)/%.yaml)
 
+QUELL_CSL     := $(wildcard $(DIR_RVWCSL)/*.csl)
+ZIEL_CSL      := $(QUELL_CSL:$(DIR_RVWCSL)/%.csl=$(DIR_OUTPUT)/%.csl)
 
-all : bib-2-yaml md-2-html
+all           : DO_SYNC DO_BIBLIO DO_CSL DO_WEBSITE
 
+DO_BIBLIO     : $(ZIEL_BIBLIO)
+DO_CSL        : $(ZIEL_CSL)
+DO_WEBSITE    : $(ZIEL_WEB)
+DO_SYNC       :
+	rsync -avhzPu ./rvw-layout/ ./$(DIR_OUTPUT)/layout/ --delete
 
-md-2-html : $(ZIEL_HTMLS)
-bib-2-yaml : $(ZIEL_YAMLS)
+$(DIR_RVWBIBLIO)/%.yaml: $(DIR_RVWBIBLIO)/%.bib
+	$(PANDOC_YAML)
+	cp $< -t $(DIR_OUTPUT)
+	cp $@ -t $(DIR_OUTPUT)
 
-clean-html :
-	rm $(ZIEL_HTMLS)
+$(DIR_OUTPUT)/%.csl: $(DIR_RVWCSL)/%.csl
+	cp $< -t $(DIR_OUTPUT)
 
-clean-yaml :
-	rm $(ZIEL_YAMLS)
-
-clean-all : clean-yaml clean-html
-
-$(ABLAGE)%.html : %.md $(CSL_DATEI) $(TMPL_DATEI) $(ZIEL_YAMLS)
-	@echo "* HTML-Datei erstellen: $@"
+$(DIR_OUTPUT)/%.html: $(DIR_RVWCONTENT)/%.md $(QUELL_BIBLIO) $(ZIEL_BIBLIO)
 	$(PANDOC_HTML)
 
-%.yaml : %.bib
-	@echo "* YAML-Datei erstellen: $@"
-	$(PANDOC_YAML)
+PANDOC_HTML   = pandoc --standalone --wrap=none --citeproc --from markdown \
+	--to html5 --template=$(DIR_RVWLAYOUT)/rvw-website.tmpl \
+	--shift-heading-level-by=1 --metadata date="`date +'%e. %B %Y'`" \
+	--metadata date-meta="`date +'%Y-%m-%d'`" $< -o $@
+
+PANDOC_YAML   = pandoc --standalone --from biblatex --to markdown-smart $< -o $@

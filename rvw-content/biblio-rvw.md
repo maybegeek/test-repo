@@ -4,8 +4,8 @@ author-meta: Christoph Pfeiffer
 keywords: Bibliografie der RVW-Mitglieder, RVW
 description-meta: Bibliografie der RVW-Mitglieder, wie auf der RVW-Website verzeichnet
 lang: de-DE
-bibliography: RVW-Publikationen.yaml
-csl: Mitteilungen-RVW.csl
+bibliography: rvw-biblio/RVW-Publikationen.yaml
+csl: rvw-csl/Mitteilungen-RVW.csl
 nocite: |
   @*
 reference-links: true
