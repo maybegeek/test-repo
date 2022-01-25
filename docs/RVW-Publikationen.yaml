@@ -1,0 +1,1429 @@
+---
+nocite: "[@*]"
+references:
+- author:
+  - family: Gerber
+    given: Gabriele
+  - family: Schroll-Decker
+    given: Irmgard
+  container-title: Altenpflege
+  id: "gg:2007:radio"
+  issue: 4
+  issued: 2007
+  page: 34-36
+  title: Vorm radio
+  type: article-journal
+  volume: 32
+- author:
+  - family: Dotzler
+    given: Bernhard J.
+  container-title: Effiziente förderung der ressource wissen
+  editor:
+  - literal: Regensburger Universitätsstiftung
+  id: "bd:2011:cult"
+  issued: 2011
+  page: 15-19
+  publisher: Aumüller Druck
+  publisher-place: Regensburg
+  title: Commercial cultural heritage online
+  type: chapter
+  url: "https://werbeforschung.org/wp-content/uploads/2011/02/commercialculturalheritage.pdf"
+- author:
+  - family: Dotzler
+    given: Bernhard J.
+  collection-number: 27
+  collection-title: Morphomata
+  container-title: Die sieben todsünden
+  editor:
+  - family: Breuer
+    given: Ingo
+  - family: Goth
+    given: Sebastian
+  - family: Moll
+    given: Björn
+  - family: Roussel
+    given: Martin
+  id: "bd:2015:sieben"
+  issued: 2015
+  page: 245-268
+  publisher: Fink
+  publisher-place: Paderborn
+  title: Das siebte übel. Der neid, die werbung und das aufgebot der
+    medien
+  type: chapter
+- author:
+  - family: Greule
+    given: Albrecht
+  - family: Reimann
+    given: Sandra
+  container-title: Kontinuitäten und neuerungen in textsorten- und
+    textallianztraditionen vom 13. Bis zum 18.jahrhundert
+  editor:
+  - family: Ernst
+    given: Peter
+  id: "ag:2014:werbeanz"
+  issued: 2014
+  page: 337-356
+  publisher: Weidler-Verlag
+  publisher-place: Berlin
+  title: Tradition oder neubeginn? Zur historischen textsorte
+    „werbeanzeige“
+  type: chapter
+- author:
+  - family: Greule
+    given: Albrecht
+  container-title: Handbuch werbekommunikation. Sprachwissenschaftliche
+    und interdisziplinäre zugänge
+  editor:
+  - family: Janich
+    given: Nina
+  id: "ag:2012:werbekomm"
+  issued: 2012
+  page: 339-350
+  publisher: Narr Francke Attempto Verlag
+  publisher-place: Tübingen
+  title: Werbekommunikation sprachhistorisch
+  type: chapter
+- author:
+  - family: Greule
+    given: Albrecht
+  - family: Reimann
+    given: Sandra
+  - family: Šichová
+    given: Kateřina
+  collection-number: 3
+  collection-title: Beiträge zur geschichte der germanistik
+  container-title: Idiome, konstruktionen, „verblümte rede“. Beiträge
+    zur germanistischen phraseologieforschung
+  editor:
+  - family: Prinz
+    given: Michael
+  - family: Richter-Vapaatalo
+    given: Ulrike
+  id: "ag:2012:salat"
+  issued: 2012
+  page: 375-400
+  publisher: Hirzel
+  publisher-place: Stuttgart
+  title: Jetzt hast du den salat! Phraseologie und werbung im dialog
+  type: chapter
+- author:
+  - family: Greule
+    given: Albrecht
+  - family: Reimann
+    given: Sandra
+  container-title: Wortbildung im deutschen zwischen sprachsystem und
+    sprachgebrauch
+  editor:
+  - dropping-particle: "&"
+    family: Sascha Michel
+    given: Hilke Elsen
+  id: "ag:2011:doppel"
+  issued: 2011
+  page: 225-263
+  publisher: ibidem-Verlag
+  publisher-place: Stuttgart
+  title: Von doppel- und normaltuben und dem anti-enzym BX. Wortbildung
+    in der hörfunkwerbung
+  type: chapter
+- author:
+  - family: Greule
+    given: Albrecht
+  - family: Reimann
+    given: Sandra
+  container-title: Strukturen und funktionen in gegenwart und geschichte
+  editor:
+  - family: Wich-Reif
+    given: Claudia
+  id: "ag:2007:cool"
+  issued: 2007
+  note: Festschrift für Franz Simmler zum 65. Geburtstag
+  page: 391-410
+  publisher: Weidler-Verlag
+  publisher-place: Berlin
+  title: Belebend cool. Methodisch-sprachstrukturelle überlegungen zum
+    slogan im hörfunk
+  type: chapter
+- author:
+  - family: Kaunzner
+    given: Ulrike A.
+  - family: Reimann
+    given: Sandra
+  container-title: "Il linguaggio della pubblicità italiano e tedesco:
+    Teoria e prassi – italienische und deutsche werbesprache: Theorie
+    und praxis"
+  editor:
+  - family: Cotticelli Kurras
+    given: Paola
+  - family: Ronneberger-Sibold
+    given: Elke
+  - family: Wahl
+    given: Sabine
+  id: "uk:2012:alter"
+  issued: 2012
+  page: 177-218
+  publisher: Edizioni dell’Orso
+  publisher-place: Alessandria
+  title: Alter in der werbung – zur altersspezifischen sprache in
+    deutsch- und italienischsprachigen kosmetikanzeigen
+  type: chapter
+- author:
+  - family: Montiel Alafont
+    given: Francisco Javier
+  container-title: Werbung – keine kunst? Phänomene und prozesse der
+    ästhetisierung von werbekommunikation
+  editor:
+  - family: Stöckl
+    given: Hartmut
+  id: "fjma:2013:spanien"
+  issued: 2013
+  page: 163-183
+  publisher: Winter
+  publisher-place: Heidelberg
+  title: "Ästhetisierung im spanien der transición: Werbung, kunst,
+    alltagskultur"
+  title-short: Ästhetisierung im spanien der transición
+  type: chapter
+- author:
+  - family: Montiel Alafont
+    given: Francisco Javier
+  container-title: Handbuch werbekommunikation. Sprachwissenschaftliche
+    und interdisziplinäre zugänge
+  editor:
+  - family: Janich
+    given: Nina
+  id: "fjma:2012:histo"
+  issued: 2012
+  page: 395-410
+  publisher: Narr Francke Attempto Verlag
+  publisher-place: Tübingen
+  title: Werbekommunikation aus kulturhistorischer sicht
+  type: chapter
+- author:
+  - family: Reimann
+    given: Sandra
+  container-title: Onomastics goes business. Role and relevance of
+    brand, company and other names in economic contexts
+  editor:
+  - family: Stegu
+    given: Martin
+  - family: Kuhn
+    given: Julia
+  - family: Wochele
+    given: Holger
+  id: "sr:2012:produkt"
+  issued: 2012
+  page: 161-175
+  publisher: Logos Verlag
+  publisher-place: Berlin
+  title: Produktnamen in der werbung als spiegel der
+    unternehmensgeschichte
+  type: chapter
+- author:
+  - family: Reimann
+    given: Sandra
+  container-title: Der fall der kulturmauer. Wie kann sprachunterricht
+    interkulturell sein?
+  editor:
+  - family: Kaunzner
+    given: Ulrike A.
+  id: "sr:2008:kaffee"
+  issued: 2008
+  page: 175-194
+  publisher: Waxmann
+  publisher-place: Münster
+  title: Der sex-appeal italienischen kaffees – werbung interkulturell
+  type: chapter
+- author:
+  - family: Reimann
+    given: Sandra
+  container-title: Interdisziplinäre germanistik im schnittpunkt der
+    kulturen
+  editor:
+  - family: Szurawitzki
+    given: Michael
+  - family: Schmidt
+    given: Christopher
+  id: "sr:2008:slogan"
+  issued: 2008
+  note: Festschrift für Dagmar Neuendorff zum 60. Geburtstag
+  page: 219-232
+  publisher: Könighausen & Neumann
+  publisher-place: Würzburg
+  title: Auf den spuren des slogans – überlegungen zu vorläufern und
+    entstehung eines werbetextbausteins
+  type: chapter
+- author:
+  - family: Šichová
+    given: Kateřina
+  container-title: Emotionalität im text
+  editor:
+  - family: Vaňková
+    given: Lenka
+  id: "ks:2014:typo"
+  issued: 2014
+  page: 325-352
+  publisher: Stauffenburg Verlag
+  publisher-place: Tübingen
+  title: "Wie phraseme werbung machen: Überlegungen zu einer typologie
+    werbungskonstituierender phraseme"
+  title-short: Wie phraseme werbung machen
+  type: chapter
+- author:
+  - family: Šichová
+    given: Kateřina
+  container-title: Deutsch als sprache der (geistes)wissenschaften.
+    Didaktik – deutsch als fremdsprache
+  editor:
+  - family: Janíková
+    given: Věra
+  - family: Sorger
+    given: Brigitte
+  id: "ks:2013:werbung"
+  issued: 2013
+  page: 139-154
+  publisher: Tribun
+  publisher-place: Brno
+  title: Mit werbung deutsch lernen?
+  type: chapter
+- author:
+  - family: Wolff
+    given: Christian
+  container-title: Workshop audiovisuelle medien der GI-fachgruppe
+    knowledge media design
+  editor:
+  - family: Eibl
+    given: Maximilian
+  id: "cw:2009:kultur"
+  issued: 2009
+  page: 21-30
+  publisher: TU Chemnitz
+  publisher-place: Chemnitz
+  title: "Online-werbung als digitales kulturgut: Analyse, erschließung
+    und archivierung"
+  title-short: Online-werbung als digitales kulturgut
+  type: chapter
+- editor:
+  - family: Reimann
+    given: Sandra
+  id: "sr:2006:fasz"
+  issued: 2006
+  publisher: edition vulpes
+  publisher-place: Regensburg
+  title: "Faszination hörfunkwerbung – im wandel: Das historische
+    werbefunkarchiv der universität regensburg"
+  title-short: Faszination hörfunkwerbung – im wandel
+  type: book
+- author:
+  - family: Reimann
+    given: Sandra
+  container-title: "Germanistische linguistik 160–170: Deutsche
+    sprachgeschichte nach 1945"
+  editor:
+  - family: Wengeler
+    given: Martin
+  id: "sr:2003:zeit"
+  issued: 2003
+  note: Diskurs- und kulturgeschichtliche Perspektiven. Beiträge zu
+    einer Tagung anlässlich der Emeritierung Georg Stötzels
+  page: 197-216
+  publisher: Georg Olms Verlag
+  publisher-place: Hildesheim
+  title: Mit liebe zum detail wie immer das erlebnis vollendeter
+    kaffeekultur! Sprach- und zeitgeschichte im spiegel von
+    dallmayr-werbespots aus fünf jahrzehnten
+  type: chapter
+- author:
+  - family: Reimann
+    given: Sandra
+  container-title: "Names in commerce and industry: Past and present"
+  editor:
+  - family: Kremer
+    given: Ludger
+  - family: Ronneberger-Sibold
+    given: Elke
+  id: "sr:2007:medialisierung"
+  issued: 2007
+  page: 213-232
+  publisher: Logo Verlag
+  publisher-place: Berlin
+  title: Medialisierung von marken- und produktnamen in der
+    hörfunkwerbung – eine klassifikation
+  type: chapter
+- author:
+  - family: Reimann
+    given: Sandra
+  container-title: Wissenschaften im kontakt. Kooperationsfelder der
+    deutschen sprachwissenschaft
+  editor:
+  - family: Reimann
+    given: Sandra
+  - family: Kessel
+    given: Katja
+  id: "sr:2007:trauben"
+  issued: 2007
+  page: 401-416
+  publisher: Narr Francke Attempto
+  publisher-place: Tübingen
+  title: Ist traubenlikör eROTisch? Zur bewertung von werbung aus
+    sprachwissenschaftlicher sicht
+  type: chapter
+- editor:
+  - family: Reimann
+    given: Sandra
+  - family: Kessel
+    given: Katja
+  id: "sr:2007:wisskontakt"
+  issued: 2007
+  publisher: Narr Francke Attempto
+  publisher-place: Tübingen
+  title: Wissenschaften im kontakt. Kooperationsfelder der deutschen
+    sprachwissenschaft
+  type: book
+- collection-number: 17
+  collection-title: "Medien: Forschung und wissenschaft"
+  editor:
+  - family: Reimann
+    given: Sandra
+  id: "sr:2008"
+  issued: 2008
+  publisher: LIT Verlag
+  publisher-place: Berlin
+  title: "Werbung hören: Beiträge zur interdisziplinären erforschung der
+    werbung im hörfunk"
+  title-short: Werbung hören
+  type: book
+- author:
+  - family: Reimann
+    given: Sandra
+  id: "sr:2008:mehrmed"
+  issued: 2008
+  publisher: Gunter Narr Verlag
+  publisher-place: Tübingen
+  title: MEHRmedialität in der werblichen kommunikation. Synchrone und
+    diachrone untersuchungen von werbestrategien
+  type: book
+- author:
+  - family: Reimann
+    given: Sandra
+  - family: Szurawitzki
+    given: Michael
+  collection-number: 28
+  collection-title: Nordeuropäische beiträge aus den human- und
+    gesellschaftswissenschaften
+  container-title: Deutsch im norden. Akten der nordisch-germanistischen
+    tagung zu åbo/turku, finnland, 18.–19. Mai 2007
+  editor:
+  - family: Wollin
+    given: Lars
+  - family: Neuendorff
+    given: Dagmar
+  - family: Szurawitzki
+    given: Michael
+  id: "sr:2009:kontr"
+  issued: 2009
+  page: 199-251
+  publisher: Peter Lang Verlag
+  publisher-place: Frankfurt
+  title: Kontrastive analysen deutscher und finnischer bankwerbungen –
+    drei fallstudien
+  type: chapter
+- author:
+  - family: Reimann
+    given: Sandra
+  container-title: Mundart und medien. Beiträge zum 3. Dialektologischen
+    symposium im bayerischen wald, walderbach, mai 2008
+  editor:
+  - family: Zehetner
+    given: Ludwig
+  - family: Kanz
+    given: Ulrich
+  - family: Wildfeuer
+    given: Alfred
+  id: "sr:2009:zehet"
+  issued: 2009
+  page: 251-272
+  publisher: edition vulpes
+  publisher-place: Regensburg
+  title: „Grüß gott alle miteinander, hier spricht luis trenker“ –
+    dialekt in deutscher hörfunkwerbung gestern und heute
+  type: chapter
+- editor:
+  - family: Reimann
+    given: Sandra
+  - family: Sauerland
+    given: Martin
+  id: "sr:2010:sauerland"
+  issued: 2010
+  publisher: Universitätsverlag
+  publisher-place: Regensburg
+  title: Wissen schaf(f)t werbung
+  type: book
+- author:
+  - family: Reimann
+    given: Sandra
+  - family: Šichová
+    given: Kateřina
+  collection-number: 211–212
+  collection-title: Germanistische linguistik
+  container-title: Phraseologismen in textsorten
+  editor:
+  - family: Lenk
+    given: Hartmut E. H.
+  - family: Stein
+    given: Stephan
+  id: "sr:2011:phraseme"
+  issued: 2011
+  page: 201-218
+  publisher: Georg Olms Verlag
+  publisher-place: Hildesheim
+  title: Hört, hört …! Phraseme in der hörfunkwerbung
+  type: chapter
+- author:
+  - family: Reimann
+    given: Sandra
+  container-title: Handbuch werbekommunikation. Sprachwissenschaftliche
+    und interdisziplinäre zugänge
+  editor:
+  - family: Janich
+    given: Nina
+  id: "sr:2012:korpora"
+  issued: 2012
+  page: 483-493
+  publisher: Narr Francke Attempto Verlag
+  publisher-place: Tübingen
+  title: Zugänge zu korpora/möglichkeiten der korpusbeschaffung (TV- und
+    hörfunkspots)
+  type: chapter
+- author:
+  - family: Reimann
+    given: Sandra
+  container-title: Namen in altbayern
+  editor:
+  - family: Janka
+    given: Wolfgang
+  - family: Simbeck
+    given: Katrin
+  id: "sr:2013:produktn"
+  issued: 2013
+  note: Gesammelte Beiträge zu Ehren von Josef Egginger und Günter
+    Schneeberger
+  page: 151-168
+  publisher: edition vulpes
+  publisher-place: Regensburg
+  title: Produktnamen in altbayern als spiegel der
+    unternehmensgeschichte
+  type: chapter
+- author:
+  - family: Montiel Alafont
+    given: Francisco Javier
+  container-title: Kulturbranding III. Positionen, ambivalenzen,
+    perspektiven zwischen markenbildung und kultur, weimarer studien zu
+    kulturpolitik und kulturökonomie
+  editor:
+  - family: Höhne
+    given: Steffen
+  - family: Bünsch
+    given: Nicola
+  - family: Ziegler
+    given: Ralph Philipp
+  id: "fjma:2010:kultid"
+  issued: 2010
+  page: 203-230
+  publisher: Leipziger Universitätsverlag
+  publisher-place: Leipzig
+  title: "Kulturelle identität und place branding im internet zwischen
+    steuerung und eigendynamik: Der fall spanien"
+  title-short: Kulturelle identität und place branding im internet
+    zwischen steuerung und eigendynamik
+  type: chapter
+- author:
+  - family: Montiel Alafont
+    given: Francisco Javier
+  collection-number: 5
+  collection-title: "SEITAR-deutschland: Beiträge zur interkulturellen
+    zusammenarbeit"
+  container-title: Spanien von innen und außen. Eine interkulturelle
+    perspektive
+  editor:
+  - family: Rupp
+    given: Anne
+  - family: Zelno
+    given: Anna
+  - family: Dalipi
+    given: Merlinda
+  - family: Scheitza
+    given: Alexander
+  id: "fjma:2011:span"
+  issued: 2011
+  page: 121-141
+  publisher: LIT Verlag
+  publisher-place: Berlin
+  title: Spanische identität? Spaniens country-branding seit den 60er
+    jahren. Eine kulturhistorische annäherung
+  type: chapter
+- author:
+  - family: Kaunzner
+    given: Ulrike A.
+  collection-number: 17
+  collection-title: "Medien: Forschung und wissenschaft"
+  container-title: "Werbung hören: Beiträge zur interdisziplinären
+    erforschung der werbung im hörfunk"
+  editor:
+  - family: Reimann
+    given: Sandra
+  id: "uk:2008:leiden"
+  issued: 2008
+  page: 75-88
+  publisher: LIT Verlag
+  publisher-place: Berlin
+  title: Vom „leiden“ der pause am lampenfieber. Sprechen im hörfunk
+  type: chapter
+- author:
+  - family: Kaunzner
+    given: Ulrike A.
+  container-title: Sprachkontakt und mehrsprachigkeit. Zur
+    anglizismendiskussion in deutschland, österreich, der schweiz und
+    italien
+  editor:
+  - family: Moraldo
+    given: Sandro M.
+  id: "uk:2008:angl"
+  issued: 2008
+  page: 177-191
+  publisher: Winter
+  publisher-place: Heidelberg
+  title: Anglizismen in der sport-werbung. Deutschland und österreich im
+    vergleich
+  type: chapter
+- author:
+  - family: Kaunzner
+    given: Ulrike A.
+  collection-number: 4
+  collection-title: Interkulturelle perspektiven in der
+    sprachwissenschaft und ihrer didaktik
+  container-title: Die deutsch-italienische kommunikation. Theorie und
+    praxis der interkultur
+  editor:
+  - family: Ehrhardt
+    given: C.
+  - family: Scialdone
+    given: M. P.
+  id: "uk:2015:inter"
+  issued: 2015
+  page: 33-54
+  publisher: Waxmann
+  publisher-place: Münster
+  title: Interkulturelle kompetenzen beim übersetzen touristischer
+    werbe- und informationstexte
+  type: chapter
+- author:
+  - family: Gerber
+    given: Gabriele
+  - family: Harrach
+    given: Nike Gräfin von
+  - family: Reimann
+    given: Sandra
+  container-title: Bibliotheksforum
+  id: "gg:2005:histor"
+  issue: 2
+  issued: 2005
+  page: 175-181
+  title: Das historische werbefunkarchiv der universität regensburg
+  type: article-journal
+  volume: 33
+- author:
+  - family: Gerber
+    given: Gabriele
+  - family: Reimann
+    given: Sandra
+  container-title: Blick in die Wissenschaft
+  id: "gg:2006:persil"
+  issue: 18
+  issued: 2006
+  page: 56-61
+  title: "Weißer riese und persil-frau: Das historische werbefunkarchiv
+    der universität regensburg"
+  title-short: Weißer riese und persil-frau
+  type: article-journal
+  volume: 15
+- author:
+  - family: Gerber
+    given: Gabriele
+  collection-number: 185
+  collection-title: Berliner handreichungen zur bibliotheks- und
+    informationswissenschaft
+  id: "gg:2006:histori"
+  issued: 2006
+  publisher: Institut für Bibliotheks- und Informationswissenschaft der
+    Humboldt-Universität zu Berlin
+  publisher-place: Berlin
+  title: Das historische werbefunkarchiv – ein digitalisierungsprojekt
+    der universitätsbibliothek regensburg
+  type: book
+  url: "https://dx.doi.org/10.18452/18262"
+- author:
+  - family: Wikipedia
+  id: "wiki:werbefunk"
+  issued: 2015
+  publisher: Online seit 2008
+  title: Historisches werbefunkarchiv. Wikipedia, die freie enzyklopädie
+  url: "https://w.wiki/45m7"
+- author:
+  - family: Montiel Alafont
+    given: Francisco Javier
+  id: "fjma:2010:werbge"
+  issued: 2010
+  publisher: Leipziger Universitätsverlag
+  publisher-place: Leipzig
+  title: Werbegeschichte als kulturgeschichte. Spanien 1940–1989
+  type: book
+- author:
+  - family: Geißelmann
+    given: Friedrich
+  container-title: "Faszination hörfunkwerbung – im wandel: Das
+    historische werbefunkarchiv der universität regensburg"
+  editor:
+  - family: Reimann
+    given: Sandra
+  id: "fg:2006:histo"
+  issued: 2006
+  page: 33-37
+  publisher: edition vulpes
+  publisher-place: Regensburg
+  title: Bedeutung des historischen werbefunkarchivs aus sicht der
+    universitätsbibliothek
+  type: chapter
+- author:
+  - family: Gerber
+    given: Gabriele
+  - family: Harrach
+    given: Nike Gräfin von
+  container-title: "Faszination hörfunkwerbung – im wandel: Das
+    historische werbefunkarchiv der universität regensburg"
+  editor:
+  - family: Reimann
+    given: Sandra
+  id: "gg:2006:histo"
+  issued: 2006
+  page: 39-43
+  publisher: edition vulpes
+  publisher-place: Regensburg
+  title: Die digitalisierung des historischen werbefunkarchivs
+  type: chapter
+- author:
+  - family: Greule
+    given: Albrecht
+  container-title: "Faszination hörfunkwerbung – im wandel: Das
+    historische werbefunkarchiv der universität regensburg"
+  editor:
+  - family: Reimann
+    given: Sandra
+  id: "ag:2006:histo"
+  issued: 2006
+  page: 53-57
+  publisher: edition vulpes
+  publisher-place: Regensburg
+  title: Der wert von fehlversuchen und regieanweisungen. Zur
+    wissenschaftlichen auswertung des historischen werbefunkarchivs
+  type: chapter
+- author:
+  - family: Depkat
+    given: Volker
+  container-title: Wissen schaf(f)t werbung
+  editor:
+  - family: Reimann
+    given: Sandra
+  - family: Sauerland
+    given: Martin
+  id: "dv:2010:verdicht"
+  issued: 2010
+  page: 16-43
+  publisher: Universitätsverlag
+  publisher-place: Regensburg
+  title: Die verdichtung der kommunikation und die vervielfältigung der
+    waren – anmerkungen zur geschichte der werbung
+  type: chapter
+- author:
+  - family: Dotzler
+    given: Bernhard
+  container-title: Wissen schaf(f)t werbung
+  editor:
+  - family: Reimann
+    given: Sandra
+  - family: Sauerland
+    given: Martin
+  id: "bd:2010:mechan"
+  issued: 2010
+  page: 44-72
+  publisher: Universitätsverlag
+  publisher-place: Regensburg
+  title: Die mechanische braut. Werbeforschung als anfang von
+    medienwissenschaft
+  type: chapter
+- author:
+  - family: Drascek
+    given: Daniel
+  container-title: Wissen schaf(f)t werbung
+  editor:
+  - family: Reimann
+    given: Sandra
+  - family: Sauerland
+    given: Martin
+  id: "dd:2010:nikol"
+  issued: 2010
+  page: 74-100
+  publisher: Universitätsverlag
+  publisher-place: Regensburg
+  title: Nikolaus und weihnachtsmann. Werbung als indikator kulturellen
+    wertewandels
+  type: chapter
+- author:
+  - family: Fürmetz
+    given: Peter
+  container-title: Wissen schaf(f)t werbung
+  editor:
+  - family: Reimann
+    given: Sandra
+  - family: Sauerland
+    given: Martin
+  id: "pf:2010:cross"
+  issued: 2010
+  page: 102-112
+  publisher: Universitätsverlag
+  publisher-place: Regensburg
+  title: Radiowerbung – kreativ und crossmedial
+  type: chapter
+- author:
+  - family: Fröhlich
+    given: Hansjürgen
+  container-title: Wissen schaf(f)t werbung
+  editor:
+  - family: Reimann
+    given: Sandra
+  - family: Sauerland
+    given: Martin
+  id: "hf:2010:kreativ"
+  issued: 2010
+  page: 114-141
+  publisher: Universitätsverlag
+  publisher-place: Regensburg
+  title: Kreativität und werbung – wege zum ziel
+  type: chapter
+- author:
+  - family: Salopek
+    given: Damir
+  container-title: Wissen schaf(f)t werbung
+  editor:
+  - family: Reimann
+    given: Sandra
+  - family: Sauerland
+    given: Martin
+  id: "ds:2010:media"
+  issued: 2010
+  page: 142-147
+  publisher: Universitätsverlag
+  publisher-place: Regensburg
+  title: Mediaplanung
+  type: chapter
+- author:
+  - family: Hofmann
+    given: Bernhard
+  container-title: Wissen schaf(f)t werbung
+  editor:
+  - family: Reimann
+    given: Sandra
+  - family: Sauerland
+    given: Martin
+  id: "bh:2010:ohr"
+  issued: 2010
+  page: 148-170
+  publisher: Universitätsverlag
+  publisher-place: Regensburg
+  title: Volles ohr! Musik in der hörfunkwerbung
+  type: chapter
+- author:
+  - family: Reimann
+    given: Sandra
+  container-title: Wissen schaf(f)t werbung
+  editor:
+  - family: Reimann
+    given: Sandra
+  - family: Sauerland
+    given: Martin
+  id: "sr:2010:ohr"
+  issued: 2010
+  page: 172-197
+  publisher: Universitätsverlag
+  publisher-place: Regensburg
+  title: Mehrmedialität in der werbung – verankerung eines begriffs und
+    verortung eines ausdrucks
+  type: chapter
+- author:
+  - family: Wolff
+    given: Christian
+  container-title: Wissen schaf(f)t werbung
+  editor:
+  - family: Reimann
+    given: Sandra
+  - family: Sauerland
+    given: Martin
+  id: "cw:2010:ads"
+  issued: 2010
+  page: 198-215
+  publisher: Universitätsverlag
+  publisher-place: Regensburg
+  title: Adwords, skyscraper und eselsohren – erscheinungsformen der
+    online-werbung
+  type: chapter
+- author:
+  - family: Sauerland
+    given: Martin
+  - family: Hammerl
+    given: Marianne
+  container-title: Wissen schaf(f)t werbung
+  editor:
+  - family: Reimann
+    given: Sandra
+  - family: Sauerland
+    given: Martin
+  id: "sm:2010:subtil"
+  issued: 2010
+  page: 216-247
+  publisher: Universitätsverlag
+  publisher-place: Regensburg
+  title: Wirkt saptil subtil? Über die effekte unterschwellig
+    rezipierter werbeinformation
+  type: chapter
+- author:
+  - family: Fürmetz
+    given: Peter
+  collection-number: 17
+  collection-title: "Medien: Forschung und wissenschaft"
+  container-title: "Werbung hören: Beiträge zur interdisziplinären
+    erforschung der werbung im hörfunk"
+  editor:
+  - family: Reimann
+    given: Sandra
+  id: "pf:2008:schulter"
+  issued: 2008
+  page: 11-14
+  publisher: LIT Verlag
+  publisher-place: Berlin
+  title: Schulterschluss von theorie und praxis
+  type: chapter
+- author:
+  - family: Feichtner
+    given: Edgar
+  collection-number: 17
+  collection-title: "Medien: Forschung und wissenschaft"
+  container-title: "Werbung hören: Beiträge zur interdisziplinären
+    erforschung der werbung im hörfunk"
+  editor:
+  - family: Reimann
+    given: Sandra
+  id: "ef:2008:ziele"
+  issued: 2008
+  page: 15-19
+  publisher: LIT Verlag
+  publisher-place: Berlin
+  title: Werbeziele – werbewirkung
+  type: chapter
+- author:
+  - family: Hofmann
+    given: Bernhard
+  collection-number: 17
+  collection-title: "Medien: Forschung und wissenschaft"
+  container-title: "Werbung hören: Beiträge zur interdisziplinären
+    erforschung der werbung im hörfunk"
+  editor:
+  - family: Reimann
+    given: Sandra
+  id: "bh:2008:musik"
+  issued: 2008
+  page: 37-57
+  publisher: LIT Verlag
+  publisher-place: Berlin
+  title: Musik in der hörfunkwerbung
+  type: chapter
+- author:
+  - family: Nierwetberg
+    given: Stefan
+  collection-number: 17
+  collection-title: "Medien: Forschung und wissenschaft"
+  container-title: "Werbung hören: Beiträge zur interdisziplinären
+    erforschung der werbung im hörfunk"
+  editor:
+  - family: Reimann
+    given: Sandra
+  id: "sn:2008:spot"
+  issued: 2008
+  page: 59-65
+  publisher: LIT Verlag
+  publisher-place: Berlin
+  title: Werbespot und werbemusik. praxisbeispiele
+  type: chapter
+- author:
+  - family: Sutor
+    given: Stefan
+  collection-number: 17
+  collection-title: "Medien: Forschung und wissenschaft"
+  container-title: "Werbung hören: Beiträge zur interdisziplinären
+    erforschung der werbung im hörfunk"
+  editor:
+  - family: Reimann
+    given: Sandra
+  id: "ss:2008:digital"
+  issued: 2008
+  page: 67-73
+  publisher: LIT Verlag
+  publisher-place: Berlin
+  title: Herausforderung digitalisierung. Perspektiven für den hörfunk
+  type: chapter
+- author:
+  - family: Greule
+    given: Albrecht
+  collection-number: 17
+  collection-title: "Medien: Forschung und wissenschaft"
+  container-title: "Werbung hören: Beiträge zur interdisziplinären
+    erforschung der werbung im hörfunk"
+  editor:
+  - family: Reimann
+    given: Sandra
+  id: "ag:2008:texte"
+  issued: 2008
+  page: 89-96
+  publisher: LIT Verlag
+  publisher-place: Berlin
+  title: Spot-texte analysieren. Der beitrag der sprachwissenschaft zur
+    untersuchung der hörfunkwerbung
+  type: chapter
+- author:
+  - family: Reimann
+    given: Sandra
+  collection-number: 17
+  collection-title: "Medien: Forschung und wissenschaft"
+  container-title: "Werbung hören: Beiträge zur interdisziplinären
+    erforschung der werbung im hörfunk"
+  editor:
+  - family: Reimann
+    given: Sandra
+  id: "sr:2008:immer"
+  issued: 2008
+  page: 167-187
+  publisher: LIT Verlag
+  publisher-place: Berlin
+  title: Es gibt immer was zu tun. Eine kriteriologie zur bestimmung des
+    slogans im hörfunk
+  type: chapter
+- author:
+  - family: Reimann
+    given: Sandra
+  collection-title: Linguistik. mediendiskurse
+  container-title: Politik - medien - sprache. Deutsche und polnische
+    realien aus linguistischer sicht
+  editor:
+  - family: Kaczmarek
+    given: Dorota
+  id: "sr:2016:streng"
+  issued: 2016
+  page: 29-40
+  publisher: Wydawnictwo Uniwersytetu Łódzkiego
+  publisher-place: Łódź
+  title: „Strenger geschmack hat bei uns keine freunde“. Griechenland in
+    der deutschen werbung
+  type: chapter
+- author:
+  - family: Reimann
+    given: Sandra
+  container-title: Heiligenverehrung und namengebung
+  editor:
+  - family: Dräger
+    given: Kathrin
+  - family: Fahlbusch
+    given: Fabian
+  - family: Nübling
+    given: Damaris
+  id: "sr:2016:sankt"
+  issued: 2016
+  page: 271-291
+  publisher: De Gruyter
+  publisher-place: Berlin/Boston
+  title: „Sankt martin“ und „sankt mokka“. Echte und unechte
+    heiligennamen als markennamen
+  type: chapter
+- author:
+  - family: Kaunzner
+    given: Ulrike A.
+  - family: Nardi
+    given: Antonella
+  container-title: Zeitschrift für Translationswissenschaft und
+    Fachkommunikation
+  id: "uk:2016:listing"
+  issue: 1
+  issued: 2016
+  page: 1-4
+  title: "Verstehen durch hören und lesen. Teil 1: Interlinguale
+    untertitelung in theorie und praxis"
+  title-short: Verstehen durch hören und lesen. Teil 1
+  type: article-journal
+  url: "https://trans-kom.eu/bd09nr01/trans-kom_09_01_01_Kaunzner_Nardi_Einfuehrung.20160705.pdf"
+  volume: 9
+- author:
+  - family: Kaunzner
+    given: Ulrike A.
+  container-title: Zeitschrift für Translationswissenschaft und
+    Fachkommunikation
+  id: "uk:2016:bedeutung"
+  issue: 1
+  issued: 2016
+  page: 20-33
+  title: Die bedeutung von suprasegmentalia bei der untertitelung
+  type: article-journal
+  url: "https://trans-kom.eu/bd09nr01/trans-kom_09_01_03_Kaunzner_Suprasegmentalia.20160705.pdf"
+  volume: 9
+- author:
+  - family: Reimann
+    given: Sandra
+  container-title: Reformation 2017. Eine bilanz
+  editor:
+  - family: Claussen
+    given: Johann Hinrich
+  - family: Rhein
+    given: Stefan
+  id: "sr:2017:luther"
+  issued: 2017
+  page: 124-131
+  publisher: Evangelische Verlagsanstalt
+  publisher-place: Leipzig
+  title: „Nun sag, wie hast du’s mit der religion?“ – werbekommunikation
+    im lutherjahr 2017
+  type: chapter
+- author:
+  - family: Reimann
+    given: Sandra
+  container-title: Bild und sprache. Impulse für den DaF-unterricht
+  editor:
+  - family: Kaunzner
+    given: Ulrike A.
+  id: "sr:2018:bild"
+  issued: 2018
+  page: 95-115
+  publisher: Waxmann
+  publisher-place: Münster
+  title: "Gebrauchstexte im unterricht: Sprache, bild und verpackung"
+  title-short: Gebrauchstexte im unterricht
+  type: chapter
+- author:
+  - family: Reimann
+    given: Sandra
+  collection-number: 28
+  collection-title: Europäische kulturen in der wirtschaftskommunikation
+  container-title: Kommunikation und technik. Ausgewählte neue ansätze
+    im rahmen einer interdisziplinären betrachtung
+  editor:
+  - family: Siems
+    given: Florian Ulrich
+  - family: Papen
+    given: Marie-Christin
+  id: "sr:2018:zahn"
+  issued: 2018
+  page: 95-114
+  publisher: Springer VS
+  publisher-place: Wiesbaden
+  title: „31.000 bürstenkopfbewegungen“ – sprach- und
+    medienwissenschaftliche analysen zur verpackung technischer produkte
+    (am beispiel einer schallzahnbürste)
+  type: chapter
+- author:
+  - family: Heinemann
+    given: Sabine
+  collection-number: 31
+  collection-title: Europäische kulturen in der wirtschaftskommunikation
+  container-title: Digitalisierung und kommunikation. Konsequenzen der
+    digitalen transformation für die wirtschaftskommunikation
+  editor:
+  - family: Stumpf
+    given: Marcus
+  id: "sh:2019:itdig"
+  issued: 2019
+  page: 447-468
+  publisher: Springer VS
+  publisher-place: Wiesbaden
+  title: Italy goes digital – zur integrierten kommunikation
+    italienischer nahrungsmittelhersteller im internationalen kontext
+  type: chapter
+- collection-number: 32
+  collection-title: Europäische kulturen in der wirtschaftskommunikation
+  editor:
+  - family: Heinemann
+    given: Sabine
+  id: "sh:2019:werbeg"
+  issued: 2019
+  publisher: Springer VS
+  publisher-place: Wiesbaden
+  title: Werbegeschichte(n) – markenkommunikation zwischen tradition und
+    innovation
+  type: book
+- author:
+  - family: Heinemann
+    given: Sabine
+  collection-number: 32
+  collection-title: Europäische kulturen in der wirtschaftskommunikation
+  container-title: Werbegeschichte(n) – markenkommunikation zwischen
+    tradition und innovation
+  editor:
+  - family: Heinemann
+    given: Sabine
+  id: "sh:2019:werbef"
+  issued: 2019
+  page: 27-42
+  publisher: Springer VS
+  publisher-place: Wiesbaden
+  title: Werbeformate mit geschichte – von den frühen anzeigenblättern
+    zu *murals* in frankreich und italien
+  type: chapter
+- author:
+  - family: Ottmann
+    given: Solveig
+  container-title: Magazin der AG auditive kultur und sound studies
+  editor:
+  - literal: GfM-AG Auditive Medienkultur und Sound Studies
+  id: "so:2019:werbeschall"
+  issued: 2019
+  note: 16. Juni 2019
+  title: Die werbeschallplatte als akustisches dokument. Ein kommentar
+    zur werbeforschung
+  type: chapter
+  url: "https://www.auditive-medienkulturen.de/2019/06/16/die-werbeschallplatte-als-akustisches-dokument-ein-kommentar-zur-werbeforschung/"
+- author:
+  - family: Greule
+    given: Albrecht
+  - family: Reimann
+    given: Sandra
+  collection-number: 32
+  collection-title: Europäische kulturen in der wirtschaftskommunikation
+  container-title: Werbegeschichte(n) – markenkommunikation zwischen
+    tradition und innovation
+  editor:
+  - family: Heinemann
+    given: Sabine
+  id: "gh:2019:anzeigen"
+  issued: 2019
+  page: 95-110
+  publisher: Springer VS
+  publisher-place: Wiesbaden
+  title: Es geschah im städtchen werther anno 1909 – narration in der
+    werbung
+  type: chapter
+- author:
+  - family: Fritzsche
+    given: Jörg
+  - family: Knapp
+    given: Jonas
+  container-title: Wettbewerb in Recht und Praxis (WRP)
+  id: "jf:2017:vegan"
+  issue: 8
+  issued: 2017
+  page: 897-901
+  title: Rechtliche grenzen für bezeichnungen veganer lebensmittel nach
+    der EuGH-entscheidung „TofuTown“
+  type: article-journal
+  volume: 2017
+- author:
+  - family: Fritzsche
+    given: Jörg
+  - family: Barth
+    given: Günter
+  container-title: Wettbewerb in Recht und Praxis (WRP)
+  id: "jf:2018:block"
+  issue: 12
+  issued: 2018
+  page: 1405-1410
+  title: Sieg der werbeblocker als impuls für zugangsschranken im
+    internet?
+  type: article-journal
+  volume: 2018
+- author:
+  - family: Fritzsche
+    given: Jörg
+  container-title: Beck’scher online-kommentar UWG
+  editor:
+  - family: Fritzsche
+    given: Jörg
+  - family: Münker
+    given: Reiner
+  - family: Stollwerck
+    given: Christoph
+  id: "jf:2018:uwg"
+  issued: 2018
+  note: Seit 1. Edition 01.03.2018 (Neueditionen alle drei Monate)
+  publisher: C.H. Beck
+  publisher-place: München
+  title: Kommentierung der §§ 4a, 7, 16 abs. 1 und 20 UWG – gesetz gegen
+    den unlauteren wettbewerb
+  type: chapter
+- author:
+  - family: Ottmann
+    given: Sandra
+    suffix: Solveig & Reimann
+  collection-number: 2
+  collection-title: Werbung – konsum – geschichte
+  container-title: Grenzenlose werbung. Zwischen konsum und audiovision
+  editor:
+  - family: Moser
+    given: Karin
+  - family: Eder
+    given: Franz X.
+  - family: Keller
+    given: Mario
+  id: "or:2020:anzeigen"
+  issued: 2020
+  page: 79-108
+  publisher: De Gruyter
+  publisher-place: Berlin
+  title: Audiovision in drei teilen. Analysen zur werbeschallplatte
+    unter besonderer berücksichtigung des beispiels was ist hi-fi? Der
+    marke bang & olufsen 1965
+  type: chapter
+- author:
+  - family: Heinemann
+    given: Sabine
+  container-title: Prof. alpinista
+  editor:
+  - family: Lücke
+    given: Stephan
+  - family: Piredda
+    given: Noemi
+  - family: Postlep
+    given: Sebastian
+  - family: Pustka
+    given: Elissa
+  id: "sh:2020:parm"
+  issued: 2020
+  title: So ein käse…! Zu markenschutz und -kommunikation von parmigiano
+    reggiano und pecorino romano
+  type: chapter
+  url: "https://www.fsk.gwi.uni-muenchen.de/?p=1021"
+- author:
+  - family: Gerstl
+    given: Doris
+  id: "dg:2020:wahlpl"
+  issued: 2020
+  publisher: Böhlau
+  publisher-place: Köln
+  title: Wahlplakate der spitzenkandidaten der parteien. Die
+    bundestagswahlen von 1949 bis 1987
+  type: book
+- author:
+  - family: Gstettner
+    given: Stefanie
+  - family: Ottmann
+    given: Solveig
+  container-title: KultuRRevolution – zeitschrift für angewandte
+    diskurstheorie
+  id: "og:2020:kaufen"
+  issue: 79
+  issued: 2020
+  page: 79-82
+  title: "#KaufNurWasDuBrauchst. Werbung in der krise"
+  type: article-journal
+- author:
+  - family: Reimann
+    given: Sandra
+  collection-number: 21
+  collection-title: Europäische kulturen in der wirtschaftskommunikation
+  container-title: Werbung für alle sinne – multimodale
+    kommunikationsstrategien
+  editor:
+  - family: Wahl
+    given: Sabine
+  - family: Ronneberger-Sibold
+    given: Elke
+  - family: Luttermann
+    given: Karin
+  id: "sr:2020:schall"
+  issued: 2020
+  page: 91-125
+  publisher: Springer VS
+  publisher-place: Wiesbaden
+  title: Die schallplatte – sprach- und medienwissenschaftliche
+    untersuchungen zu einem unerforschten werbemedium
+  type: chapter
+- author:
+  - family: Reimann
+    given: Sandra
+  container-title: FILOGI. Zeitschrift für Germanistik, Nederlandistik
+    und Skandinavistik der Eötvös-Loránd-Universität
+  id: "sr:2020:heute"
+  issue: 1
+  issued: 2020
+  title: "Unternehmenskommunikation heute und interkulturell: Angewandte
+    linguistik am beispiel deutsche sprache in unternehmen in ungarn"
+  title-short: Unternehmenskommunikation heute und interkulturell
+  type: article-journal
+  url: "http://ojs.elte.hu/filogi/article/view/460"
+  volume: 1
+- author:
+  - family: Heinemann
+    given: Sabine
+  - family: Matrisciano
+    given: Sara
+  collection-number: 33
+  collection-title: Europäische kulturen in der wirtschaftskommunikation
+  container-title: Mobilität – wirtschaft – kommunikation. Wie die
+    mobilität von unternehmen, personen, kapital, waren und
+    dienstleistungen die kommunikation verändert
+  editor:
+  - family: Matrisciano
+    given: Sara
+  - family: Hoffmann
+    given: Edgar
+  - family: Peters
+    given: Elisabeth
+  id: "hs:2021:vw"
+  issued: 2021
+  page: 253-278
+  publisher: Springer VS
+  publisher-place: Wiesbaden
+  title: "Kult und mobilität: Zur markenkommunikation bei VW käfer/(new)
+    beetle und fiat (nuova) 500"
+  title-short: Kult und mobilität
+  type: chapter
+- author:
+  - family: Heinemann
+    given: Sabine
+  container-title: The economy in names. Values, branding and
+    globalization. Proceedings of names in the economy 6. International
+    conference, uppsala, 3–5 june 2019
+  editor:
+  - family: Leibring
+    given: Katharina
+  - family: Mattfolk
+    given: Leila
+  - family: Neumüller
+    given: Kristina
+  - family: Nyström
+    given: Staffan
+  - family: Pihl
+    given: Elin
+  id: "hs:2021:it"
+  issued: 2021
+  page: 59-69
+  publisher: Department of Archives; Research, Uppsala, Institute for
+    Language; Folklore
+  publisher-place: Uppsala
+  title: Italian sounding. On names and frames in german and french
+    brand communication
+  type: chapter
+- author:
+  - family: Kaunzner
+    given: Ulrike A.
+  id: "uk:2021:st"
+  issued: 2021
+  publisher: Narr Francke Attempto
+  publisher-place: Tübingen
+  title: Die stimme als zeitzeugin. Werberhetorik im hörfunk
+  type: book
+---
+
