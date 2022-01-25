@@ -14,7 +14,7 @@ jobs:
       - name: NAME-01 ... Installiere make
         run: |
           apt update
-          apt install make git -y
+          apt install make git rsync -y
       - name: NAME-02 ...
         uses: actions/checkout@v2
         with:
@@ -27,7 +27,7 @@ jobs:
       - name: Update changes in GitHub repository
         if: steps.git-check.outputs.modified == 'true'
         run:  |
-          git config --global user.name 'maybegeek' 
+          git config --global user.name 'maybegeek'
           git config --global user.email 'chr.pfeiffer@gmail.com'
           git add -A
           git commit -m '[automated commit] GitHub workflow with pandoc and Makefile'
