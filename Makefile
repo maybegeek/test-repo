@@ -26,6 +26,7 @@ DO_BIBLIO     : $(ZIEL_BIBLIO)
 DO_CSL        : $(ZIEL_CSL)
 DO_WEBSITE    : $(ZIEL_WEB)
 DO_SYNC       :
+	mkdir -p $(DIR_OUTPUT)
 	rsync -avhzPu rvw-layout/ $(DIR_OUTPUT)/layout/ --delete
 
 $(DIR_RVWBIBLIO)/%.yaml: $(DIR_RVWBIBLIO)/%.bib
