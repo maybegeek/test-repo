@@ -19,12 +19,12 @@ jobs:
         uses: actions/checkout@v2
         with:
           ref: ${{ github.head_ref }}
-      - name: TEST2
-        run: make
-      - name: Check for modified files
+      - name: NAME-03 ... TEST2
+        run: make GITACT=1
+      - name: NAME-04 ... Check for modified files
         id: git-check
         run: echo ::set-output name=modified::$(if [ -n "$(git status --porcelain)" ]; then echo "true"; else echo "false"; fi)
-      - name: Update changes in GitHub repository
+      - name: NAME-05 ... Update changes in GitHub repository
         if: steps.git-check.outputs.modified == 'true'
         run:  |
           git config --global user.name 'maybegeek'
