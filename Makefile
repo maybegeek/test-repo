@@ -35,7 +35,7 @@ $(DIR_RVWBIBLIO)/%.yaml: $(DIR_RVWBIBLIO)/%.bib
 	rsync -avhzPu rvw-layout/$@ $(DIR_OUTPUT)/$@
 
 $(DIR_OUTPUT)/%.csl: $(DIR_RVWCSL)/%.csl
-	rsync -avhzPu rvw-layout/$< $(DIR_OUTPUT)/$<
+	rsync -avhzPu $(DIR_RVWCSL)/$< $(DIR_OUTPUT)/$<
 
 $(DIR_OUTPUT)/%.html: $(DIR_RVWCONTENT)/%.md $(QUELL_BIBLIO) $(ZIEL_BIBLIO)
 	$(PANDOC_HTML)
