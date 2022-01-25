@@ -31,8 +31,8 @@ DO_SYNC       :
 
 $(DIR_RVWBIBLIO)/%.yaml: $(DIR_RVWBIBLIO)/%.bib
 	$(PANDOC_YAML)
-	rsync -avhzPu rvw-layout/$< $(DIR_OUTPUT)/$<
-	rsync -avhzPu rvw-layout/$@ $(DIR_OUTPUT)/$@
+	rsync -avhzPu $< $(DIR_OUTPUT)/$(notdir $<)
+	rsync -avhzPu $@ $(DIR_OUTPUT)/$(notdir $@)
 
 $(DIR_OUTPUT)/%.csl: $(DIR_RVWCSL)/%.csl
 	rsync -avhzPu $< $(DIR_OUTPUT)/$(notdir $<)
