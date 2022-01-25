@@ -31,11 +31,11 @@ DO_SYNC       :
 
 $(DIR_RVWBIBLIO)/%.yaml: $(DIR_RVWBIBLIO)/%.bib
 	$(PANDOC_YAML)
-	cp $< -t $(DIR_OUTPUT)
-	cp $@ -t $(DIR_OUTPUT)
+	rsync -avhzPu rvw-layout/$< $(DIR_OUTPUT)/$<
+	rsync -avhzPu rvw-layout/$@ $(DIR_OUTPUT)/$@
 
 $(DIR_OUTPUT)/%.csl: $(DIR_RVWCSL)/%.csl
-	cp $< -t $(DIR_OUTPUT)
+	rsync -avhzPu rvw-layout/$< $(DIR_OUTPUT)/$<
 
 $(DIR_OUTPUT)/%.html: $(DIR_RVWCONTENT)/%.md $(QUELL_BIBLIO) $(ZIEL_BIBLIO)
 	$(PANDOC_HTML)
