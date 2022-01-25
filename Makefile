@@ -1,4 +1,4 @@
-.PHONY : DO_SYNC DO_BIBLIO DO_CSL DO_WEBSITE
+.PHONY : DO_SYNCLAYOUT DO_BIBLIO DO_SYNCBIBLIO DO_CSL DO_WEBSITE DO_CLEANOUTPUT DO_CLEANALL
 
 DIR_OUTPUT     = rvw-www-staging
 
@@ -20,19 +20,18 @@ ZIEL_BIBLIO   := $(QUELL_BIBLIO:$(DIR_RVWBIBLIO)/%.bib=$(DIR_RVWBIBLIO)/%.yaml)
 QUELL_CSL     := $(wildcard $(DIR_RVWCSL)/*.csl)
 ZIEL_CSL      := $(QUELL_CSL:$(DIR_RVWCSL)/%.csl=$(DIR_OUTPUT)/%.csl)
 
-all           : DO_SYNC DO_BIBLIO DO_CSL DO_WEBSITE
+all           : DO_SYNCLAYOUT DO_BIBLIO DO_SYNCBIBLIO DO_CSL DO_WEBSITE
 
 DO_BIBLIO     : $(ZIEL_BIBLIO)
 DO_CSL        : $(ZIEL_CSL)
 DO_WEBSITE    : $(ZIEL_WEB)
-DO_SYNC       :
-	mkdir -p $(DIR_OUTPUT)
+DO_SYNCLAYOUT :
 	rsync -avhzPu rvw-layout/ $(DIR_OUTPUT)/layout/ --delete
+DO_SYNCBIBLIO :
+	rsync -avhzPu $(QUELL_BIBLIO) $(QUELL_BIBLIO:%.bib=%.yaml) $(DIR_OUTPUT)
 
 $(DIR_RVWBIBLIO)/%.yaml: $(DIR_RVWBIBLIO)/%.bib
 	$(PANDOC_YAML)
-	rsync -avhzPu $< $(DIR_OUTPUT)/$(notdir $<)
-	rsync -avhzPu $@ $(DIR_OUTPUT)/$(notdir $@)
 
 $(DIR_OUTPUT)/%.csl: $(DIR_RVWCSL)/%.csl
 	rsync -avhzPu $< $(DIR_OUTPUT)/$(notdir $<)
@@ -46,3 +45,10 @@ PANDOC_HTML   = pandoc --standalone --wrap=none --citeproc --from markdown \
 	--metadata date-meta="`date +'%Y-%m-%d'`" $< -o $@
 
 PANDOC_YAML   = pandoc --standalone --from biblatex --to markdown-smart $< -o $@
+
+DO_CLEANOUTPUT :
+	rm -rf $(DIR_OUTPUT)/*
+
+DO_CLEANALL :
+	rm -f $(ZIEL_BIBLIO)
+	rm -rf $(DIR_OUTPUT)/*
