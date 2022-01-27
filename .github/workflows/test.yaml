@@ -31,4 +31,4 @@ jobs:
           git config --global user.email 'chr.pfeiffer@gmail.com'
           git add -A
           git commit --amend --no-edit
-          git push
+          git push --force
