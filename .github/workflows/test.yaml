@@ -29,6 +29,10 @@ jobs:
         run:  |
           git config --global user.name 'maybegeek'
           git config --global user.email 'chr.pfeiffer@gmail.com'
-          git add -A
+          git add -all
+          git stash save
+          git pull
+          git stash pop
+          git add -all
           git commit --amend --no-edit
           git push
