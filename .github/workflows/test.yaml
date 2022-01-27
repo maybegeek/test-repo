@@ -33,8 +33,4 @@ jobs:
           git add . && git add --renormalize .
           git pull origin ${{ github.head_ref }} --autostash --rebase -X ours
           git commit --allow-empty --amend --no-edit
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          branch: ${{ github.head_ref }}
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          git push
