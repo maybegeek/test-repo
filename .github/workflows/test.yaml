@@ -27,12 +27,15 @@ jobs:
       - name: NAME-05 ... Update changes in GitHub repository
         if: steps.git-check.outputs.modified == 'true'
         run:  |
+          git config --local core.autocrlf false
           git config --global user.name 'maybegeek'
-          git config --global user.email 'chr.pfeiffer@gmail.com'
-          git add --all
-          git stash save
-          git pull
-          git stash pop
-          git add --all
-          git commit --amend --no-edit
-          git push
+          bgit config --global user.email 'chr.pfeiffer@gmail.com'
+          git add . && git add --renormalize .
+          git pull origin ${{ github.head_ref }} --autostash --rebase -X ours
+          git commit --allow-empty -am "AUTO-GH ACTION: ${{ github.workflow }}"
+          NO_PAGER=1 git --no-pager diff HEAD^
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: ${{ github.head_ref }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
