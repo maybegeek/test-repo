@@ -27,10 +27,14 @@ jobs:
       - name: NAME-05 ... Update changes in GitHub repository
         if: steps.git-check.outputs.modified == 'true'
         run:  |
-          git config --local core.autocrlf false
           git config --global user.name 'maybegeek'
           git config --global user.email 'chr.pfeiffer@gmail.com'
+          echo "*** configs done"
           git add . && git add --renormalize .
-          git pull origin ${{ github.head_ref }} --autostash --rebase -X ours
-          git commit --allow-empty --amend --no-edit
+          echo "*** add and renormalize"
+          git pull origin --autostash --rebase -X ours
+          echo "*** autostash"
+          git commit --amend
+          echo "commit --amend"
           git push
+          echo "git push"
