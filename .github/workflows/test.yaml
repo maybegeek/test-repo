@@ -14,7 +14,7 @@ jobs:
       - name: NAME-01 ... Installiere make
         run: |
           apt-get update
-          apt-get install make git rsync -y
+          apt-get install make git rsync locale-gen update-locale -y
           locale-gen de_DE.UTF-8
           update-locale LANG=de_DE.UTF-8
       - name: NAME-02 ...
