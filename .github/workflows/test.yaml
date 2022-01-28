@@ -34,7 +34,7 @@ jobs:
           echo "*** add and renormalize"
           git pull origin --autostash --rebase -X ours
           echo "*** autostash"
-          git commit --amend
-          echo "commit --amend"
+          git commit --amend --no-edit
+          echo "commit --amend --no-edit"
           git push
           echo "git push"
