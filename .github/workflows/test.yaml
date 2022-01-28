@@ -16,25 +16,26 @@ jobs:
           apt update
           apt install make git rsync -y
       - name: NAME-02 ...
-        uses: actions/checkout@v2
+        uses: actions/checkout@master
         with:
-          ref: ${{ github.head_ref }}
+          fetch-depth: 2
       - name: NAME-03 ... TEST2
         run: make GITACT=1
       - name: NAME-04 ... Check for modified files
         id: git-check
         run: echo ::set-output name=modified::$(if [ -n "$(git status --porcelain)" ]; then echo "true"; else echo "false"; fi)
-      - name: NAME-05 ... Update changes in GitHub repository
+      - name: Reuse message
+        run: |
+          echo 'COMMIT_MSG<<EOM' >> "$GITHUB_ENV"
+          git log -n1 --pretty='%B' >> "$GITHUB_ENV"
+          echo 'EOM' >> "$GITHUB_ENV"
+      - name: blaaaa
         if: steps.git-check.outputs.modified == 'true'
-        run:  |
-          git config --global user.name 'maybegeek'
-          git config --global user.email 'chr.pfeiffer@gmail.com'
-          echo "*** configs done"
-          git add . && git add --renormalize .
-          echo "*** add and renormalize"
-          git pull origin --autostash --rebase -X ours
-          echo "*** autostash"
-          git commit --amend --no-edit
-          echo "commit --amend --no-edit"
-          git push
-          echo "git push"
+        uses: stefanzweifel/git-auto-commit-action@v4
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          commit_message: ${{ env.COMMIT_MSG }}
+          commit_options: --amend --no-edit
+          push_options: --force
+          skip_fetch: true
